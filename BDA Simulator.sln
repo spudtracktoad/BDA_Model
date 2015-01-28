@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BDA Simulator", "BDA Simulator\BDA Simulator.csproj", "{05A8ADF1-2F96-4285-A53E-FF74A2870AE2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BDA_Model", "BDA Simulator\BDA_Model.csproj", "{05A8ADF1-2F96-4285-A53E-FF74A2870AE2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -23,5 +23,10 @@ namespace BDA_Simulator
             Build_T90();
             label2.Text = GetT90Info().ToString();
         }
+
+        private void saveToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SaveModel();
+        }
     }
 }

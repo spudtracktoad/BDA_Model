@@ -2,9 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Xml.Serialization;
+using System.IO;
 
 namespace BDA_Simulator
 {
+    [Serializable]
     public class Model_System
     {
         private String strSystemName;
@@ -13,6 +16,15 @@ namespace BDA_Simulator
         private Double dblSystemTotalDefensive;
         private LinkedList<Weapon> WeaponList = new LinkedList<Weapon>();
 
+        // Serialize weapon systems
+        public void SaveWeaponData(Stream fStream)
+        {
+            XmlSerializer xmlFormater = new XmlSerializer(typeof(Weapon));
+            foreach (Weapon val in WeaponList)
+            {
+                xmlFormater.Serialize(fStream, val);
+            }
+        }
         //Methods
         private void CalculateSystemTotal()
         {

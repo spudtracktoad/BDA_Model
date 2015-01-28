@@ -3,7 +3,7 @@
   <Class Name="BDA_Simulator.BDA_Simulator_Main" Collapsed="true">
     <Position X="9.25" Y="1.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>BYCCAj0gACAAAAAIAACCgAMSCIBAAYAAAgQABjAAAEA=</HashCode>
+      <HashCode>BYCCAjUgACAAABAIAACCgAMSCABAAQAAAgQABjAAAAA=</HashCode>
       <FileName>BDAMain.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -29,7 +29,7 @@
   <Class Name="BDA_Simulator.Contorller">
     <Position X="7.5" Y="1.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>CAAAAAAAAAAAAAAAEAAAAAEAAAAAAAABAgAAAAAAAQI=</HashCode>
+      <HashCode>CAAAAAgAAAAAAAAAEAAAAAEAAAAAAAABAgAAAAAQAQI=</HashCode>
       <FileName>Contorller.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -41,9 +41,9 @@
     </TypeIdentifier>
   </Class>
   <Class Name="BDA_Simulator.Weapon">
-    <Position X="3.5" Y="1.25" Width="1.5" />
+    <Position X="3" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>QAEAAAAACAAAAYDEQCAAABCoAAAAAYRAAAAAIBBJAIA=</HashCode>
+      <HashCode>QAEAAAAAAAAAAYDEQCAAgBCoAAAAAYBAAgAAIBBIAJA=</HashCode>
       <FileName>Weapon.cs</FileName>
     </TypeIdentifier>
   </Class>

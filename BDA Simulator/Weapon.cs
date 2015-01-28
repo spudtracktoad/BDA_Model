@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Xml.Serialization;
 
 namespace BDA_Simulator
 {
+    [Serializable]
     /// <summary>
     /// This is a model of each weapon system
     /// </summary>
