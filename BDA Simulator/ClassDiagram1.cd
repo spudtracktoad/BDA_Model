@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BDA_Simulator.BDA_Simulator_Main" Collapsed="true">
+    <Position X="9.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BYCCAj0gACAAAAAIAACCgAMSCIBAAYAAAgQABjAAAEA=</HashCode>
+      <FileName>BDAMain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BDA_Simulator.Program" Collapsed="true">
+    <Position X="0.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BDA_Simulator.Properties.Resources" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BDA_Simulator.Properties.Settings" Collapsed="true">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BDA_Simulator.Contorller">
+    <Position X="7.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAEAAAAAEAAAAAAAABAgAAAAAAAQI=</HashCode>
+      <FileName>Contorller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BDA_Simulator.Model_System">
+    <Position X="5.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAUAEACkAAAAAQAAAAAABAAAAIABAgAA=</HashCode>
+      <FileName>Model_System.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BDA_Simulator.Weapon">
+    <Position X="3.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAEAAAAACAAAAYDEQCAAABCoAAAAAYRAAAAAIBBJAIA=</HashCode>
+      <FileName>Weapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
