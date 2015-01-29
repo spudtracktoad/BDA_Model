@@ -27,8 +27,8 @@ namespace BDA_Simulator
                 XmlSerializer xmlFormater = new XmlSerializer(typeof(Model_System));
                 foreach (Model_System val in WeaponSystemList)
                 {
-                    val.SaveWeaponData(fStream);
                     xmlFormater.Serialize(fStream, val);
+                    //val.SaveWeaponData(fStream);
                 }
             }
         }
@@ -41,7 +41,9 @@ namespace BDA_Simulator
         public void Build_T90()
         {
             tmpWeaponT90Main = new Weapon(.84, .73, .75, .82, .95, .99, .99, .81);
+            tmpWeaponT90Main.StrName = "125mm";
             tmpWeaponT90ATGM = new Weapon(.16, .1, .1, .7, .7, .99, .99, .95);
+            tmpWeaponT90ATGM.StrName = "AT-11";
             modelSystemT90 = new Model_System();
             modelSystemT90.StrName = "T-90";
             modelSystemT90.AddSystemWeapon(tmpWeaponT90ATGM);

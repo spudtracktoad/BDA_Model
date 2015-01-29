@@ -14,7 +14,7 @@ namespace BDA_Simulator
         private Double dblSystemTotal;
         private Double dblSystemTotalOffensive;
         private Double dblSystemTotalDefensive;
-        private LinkedList<Weapon> WeaponList = new LinkedList<Weapon>();
+        public List<Weapon> WeaponList = new List<Weapon>();
 
         // Serialize weapon systems
         public void SaveWeaponData(Stream fStream)
@@ -52,7 +52,7 @@ namespace BDA_Simulator
         }
         public void AddSystemWeapon(Weapon val)
         {
-            WeaponList.AddLast(val);
+            WeaponList.Add(val);
             CalculateSystemTotalDefensive();
             CalculateSystemTotalOffensive();
             CalculateSystemTotal();
